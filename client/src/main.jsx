@@ -8,8 +8,13 @@ import { BrowserRouter } from 'react-router-dom'
 import store from './redux/store/store.js'
 import { Provider } from 'react-redux'
 
+import axios from 'axios'
+
 //styles
 import './index.css'
+
+// axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://videogamesback-production-5db3.up.railway.app/';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
