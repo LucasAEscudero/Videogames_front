@@ -1,0 +1,38 @@
+.videogame{
+    border-radius: 1em;
+    border: 1px solid hsla(0,0%,100%,.1);
+    background-color: #353535;
+    transition: 0.5s;
+    min-width: 350px;
+}
+
+.videogame:hover{
+    width: 105%;
+    height: 105%;
+    z-index: 80;
+    box-shadow: 0 0 15px #595fd5;
+}
+
+.vidImg > img{
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.id{
+    color: hsl(0, 0%, 40%);
+}
+
+.link{
+    margin-bottom: 0;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.genres{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

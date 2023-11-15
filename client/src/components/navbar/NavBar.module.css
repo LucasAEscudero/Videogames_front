@@ -1,0 +1,40 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 7px;
+    z-index: 500;
+
+
+    margin: 1em;
+    margin: auto;
+    padding: 0;
+    width: 700px;
+    border-radius: 25px;
+    background-color: #353535;
+    border: 1px solid hsla(0,0%,100%,.1);
+}
+
+.firstButton,
+.link{
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.firstButton:hover,
+.link:hover{
+    box-shadow: 0 0 10px #595fd5;
+}
+
+.firstButton{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+/* .links{
+    float: left;
+}
+
+.search{
+    float: right;
+} */

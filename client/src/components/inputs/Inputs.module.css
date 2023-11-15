@@ -1,0 +1,20 @@
+.errors{
+    color: rgb(201, 0, 0);
+    font-weight: 100;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input > label,
+.input > p{
+    align-self: flex-start;
+    margin: 0;
+}
+
+.input > input{
+    width: 200px;
+    margin-top: 3px;
+}

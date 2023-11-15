@@ -1,0 +1,23 @@
+.errors{
+    color: rgb(201, 0, 0);
+    font-weight: 100;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: start;
+}
+
+.checkbox > label,
+.checkbox > p{
+    display: block;
+    text-align: start;
+    margin: 0;
+}
+
+.checkbox > input{
+    width: 200px;
+    margin-top: 3px;
+    display: inline;
+}
