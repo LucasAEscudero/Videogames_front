@@ -14,7 +14,7 @@ import axios from 'axios'
 import './index.css'
 
 // axios.defaults.baseURL = 'http://localhost:3001'
-axios.defaults.baseURL = 'https://videogamesbackend-production-eedc.up.railway.app/';
+axios.defaults.baseURL = 'https://videogamesback-production-a383.up.railway.app/';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
