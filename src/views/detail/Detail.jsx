@@ -34,7 +34,7 @@ function Detail() {
         return () => dispatch(cleanDetail());
     }, []);
 
-    if(isLoading) return(<div><Loading /></div>)
+    if(!videogame.tags || isLoading) return(<div><Loading /></div>)
 
     return(
         <div className={styles.videogameDetail}>

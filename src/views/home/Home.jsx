@@ -95,7 +95,7 @@ function Home({ page, setPage, handlerPages }) {
         }
       }, [options.cChanges]);
 
-    if(isLoading) return(<div><Loading /></div>)
+    if(!videogames.length || !genres || isLoading) return(<div><Loading /></div>)
         
     //error search
     if(error) return(<div><Error error={error} /></div>)

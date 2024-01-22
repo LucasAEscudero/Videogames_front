@@ -156,7 +156,7 @@ function Create({ maxApiPage }){
         setErrors(validations(input));
     }, [input])
 
-    if(isLoading) return(<div><Loading /></div>)
+    if(isLoading || !genres) return(<div><Loading /></div>)
     
     //to render
     return(
